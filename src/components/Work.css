@@ -1,0 +1,66 @@
+.main_work{
+
+    height:610vh;
+    width:100%;
+    background: rgb(2, 158, 145);
+    background-image: linear-gradient(to right,rgba(0,95,104,0.7) 30%, rgb(2, 158, 145) 30%, rgba(0,95,104,0.7) 30%);    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.main_work>h1{
+    background-image: linear-gradient(to right, rgba(8, 154, 141, 0.9) 30%, rgba(6, 124, 134, 0.7) 60%);    
+    margin:0;
+    padding: 0;
+    margin-block: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.inner_work{
+    height:100vh;
+    width:100%;
+    
+}
+.event_container{
+    margin:0 4% 5% 4%;
+    height:90vh;
+    width:90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-flow: row wrap;
+}
+.event_image{
+    border-radius: 2%;
+    height: 100%;
+    width: 55%;
+    max-width: 65%;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+}
+.event_desc{
+    width: 40%;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .event_container{
+        height:90vh;
+        margin:10% 4%;
+        gap: 1rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    }
+    .event_image{
+        border-radius: 2%;
+        height: 50%;
+        width: 80%;
+        max-width: 80%;
+        overflow: hidden;
+        margin-top:20%;
+        padding:0;
+    }
+    .event_desc{
+        width: 80%;
+        margin:2% 10%;
+    }
+}
