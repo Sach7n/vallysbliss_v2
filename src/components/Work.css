@@ -1,5 +1,7 @@
 .main_work{
-
+    text-shadow: 0 0 0.2px #fff, 0 0 2px #fff, 0 0 10px #4f3471;
+    color: #DBDFFD;
+    font-weight:200;
     height:610vh;
     width:100%;
     background: rgb(2, 158, 145);
@@ -16,13 +18,13 @@
 .inner_work{
     height:100vh;
     width:100%;
-    
+    padding-top: 5%;    
 }
 .event_container{
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 20px 70px -10px, rgba(0, 0, 0, 0.1) 0px 5px 10px -10px, rgba(10, 37, 64, 0.1) 0px -2px 6px 0px;
     margin:0 4% 5% 4%;
     height:90vh;
     width:90%;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,26 +43,54 @@
 .event_desc{
     width: 40%;
 }
+.overlay1{
+    display: none;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .event_container{
-        height:90vh;
+    .main_work{
+        height:518vh;
+     }   
+     .event_container{
+        position: relative;
+        height:80vh;
         margin:10% 4%;
         gap: 1rem;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-
+    
     }
     .event_image{
         border-radius: 2%;
-        height: 50%;
-        width: 80%;
-        max-width: 80%;
+        height:99%;
+        width: 100%;
+        max-width: 100%;
         overflow: hidden;
-        margin-top:20%;
+        margin:1% 0% ;
         padding:0;
+        z-index: 0;
+        
+    }
+    .image_mob{
+        transform: translate(-30%,-5%);
+    }
+    .overlay1{
+        opacity: 0.85;
+        height: 99%;
+        width: 100%;
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 0;
+        background-size: cover;
+        background: rgba(0,95,104,1);
+        background-repeat: no-repeat;       
     }
     .event_desc{
-        width: 80%;
+        position: relative;
+        height: 70%;
+        width: 97%;
         margin:2% 10%;
+        transform: translateY(-145%);
+        z-index: 1;
+        word-wrap: break-word;
     }
-}
+ }

@@ -66,7 +66,7 @@ const strip = [{
 
 
 const work = [{
-    title:"PhotoGraphy/Cinemetography",
+    title:"PhotoGraphy/Videography",
     image: p1,
     desc:"We have built and brought together a truly amazing team of photographers/cinematographers. The Vallys Bliss studio is an independent collective focused on the documentation of weddings, engagements and elopements. We represent an established group of visual creators, invested in the art of photography and human connection, merging our artistic experience to capture our clients creative vision through imagery. We shoot images for people who live adventurously, love uncontrollably, and are okay with “weird”. Through our cameras we capture the most special moments of your wedding day, always from our particular way of seeing things. From our shooting style to our editing tones, we do things natural + down-to-earth. Our clients value artistic vision, doing life with good people, and a healthy lifestyle. We are Creatives, Adventurers and Explorers. Live in Gujarat-India, but we always have the suitcase ready to escape there where we need…"
 

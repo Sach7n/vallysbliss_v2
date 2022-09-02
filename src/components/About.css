@@ -1,8 +1,12 @@
 .main_about{
+    color: aliceblue;
     height:43vh;
     width:100%;
     text-align: left;    
-    background-image: linear-gradient(to right, rgba(8, 154, 141, 0.9) 30%, rgba(6, 124, 134, 0.7) 60%);    
+    background-image: linear-gradient(to left, rgba(8, 154, 141, 0.9) 30%, rgba(6, 124, 134, 0.7) 60%);    
+}
+a{
+color: aliceblue;    
 }
 .inner_about{
     height:43vh;
@@ -53,3 +57,18 @@
     margin-block-start: 2%;
     margin-block-end: 0;
    }
+.mob_direction{
+    display: none;
+}
+   @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+ .get_connected{
+    width:90%;
+ }
+ .mob_direction{
+    display: inline;
+}
+    .direction{
+    display: none;
+ }  
+}

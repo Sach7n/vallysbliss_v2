@@ -14,11 +14,13 @@
 .nav-logo{
     margin: 0 0 0 1%;
     height: 100%;
+    width: 8%;
 }
 .logo_svg{
     height: 130%;
     width: 110%;
     transform: translateY(-6%);
+    filter: drop-shadow(0 0.1rem 0.25rem #DBDFFD);
 }
 .nav-items{
     display: flex;
@@ -60,12 +62,13 @@ color: #DBDFFD;
     .main-nav{
         justify-content: space-around;    
         height: 55px;
-        background-color:rgba(0, 0, 0, 0.8);    
+        background: transparent;
     }
     .nav-items li{
         display: none;
     }
     .nav-logo{
-        margin-left: -35px;
+        margin-left: -15%;   
+        width: 20%;       
     }
 }

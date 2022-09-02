@@ -11,9 +11,9 @@ const Work = () => {
             {work && work.map(item=>
                 <div id="work"  className='event_container'>
                     <div  className='event_image'>
-                        <img src={item.image} />
+                        <img className='image_mob' src={item.image} />
                     </div>
-
+                    <div className='overlay1' />
                     <div className='event_desc'>
                         <h2 className="title_r">{item.title}</h2>
                         <div><p>{item.desc}</p></div>
