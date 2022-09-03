@@ -21,7 +21,6 @@ const Home = () => {
             }
 
         }, 10000)
-        console.log(mobCard)
     }
     useEffect(() => {
         two();
@@ -39,12 +38,12 @@ const Home = () => {
                 <div className='text'>
                     <p className='p-h1'>Lets plan your moments with</p>
                     <p className='p-h2'> Vally's Bliss </p>
-                    <button href="tel:+91 8000957080">Contact us</button>
+                    <button><a href="tel:+91 8000957080">Contact us</a></button>
                     </div>
                     <div className='image_1'>
                         <img className='image_m' src={theme} alt="loading" />
                         <div className='overlay' />
-
+                
                     </div>
                     
                 </div>

@@ -46,7 +46,7 @@ const bridal = [b1, b2, b3,b4,b5];
 const events = [e1, e2, e3,e4,e5,e6];
 const photography = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10];
 
-const main_background = [m1, m2, m3,m4];
+const main_background = [m1, m2, m3,m4,b2,e2,p2,b3,e3,p3,b4,e4,p4,b5,e5,e6,p5,p6, p7, p8, p9, p10];
 const strip = [{
     image: s1,
     desc: "Bridal"
