@@ -20,7 +20,7 @@ const Home = () => {
                 break;
             }
 
-        }, 10000)
+        }, 16000)
     }
     useEffect(() => {
         two();
